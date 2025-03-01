@@ -18,11 +18,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
 
       - name: Install dependencies
         working-directory: doc/project-doc
-        run: yarn install --frozen-lockfile
+        run: npm ci
+
       - name: Test build website
         working-directory: doc/project-doc
-        run: yarn build
+        run: npm run build
