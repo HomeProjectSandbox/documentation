@@ -10,3 +10,10 @@ sudo raspi-config -> 1 System Options -> S5 Boot / Auto Login -> B2 Console Auto
 
 after that ssh to the raspberry pi with ssh username@ip
 ```
+
+static ip
+```
+nmcli device status
+sudo nmtui
+sudo systemctl restart NetworkManager
+```
