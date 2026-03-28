@@ -81,7 +81,7 @@ const config: Config = {
           position: 'left',
           label: 'Docusaurus setup',
         },
-        {to: '/blog', label: 'Services', position: 'left'},
+        {to: '/docs/services_intro', label: 'Services', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/blog', label: 'Learning', position: 'left'},
         {
