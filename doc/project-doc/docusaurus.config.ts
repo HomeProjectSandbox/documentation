@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'HomeProjects',
+  tagline: 'Documentation of home projects',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -69,22 +69,24 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'HomeProjects',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/homeproject_logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docusaurus setup',
         },
+        {to: '/blog', label: 'Services', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Learning', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/HomeProjectSandbox',
+          label: 'HomeProjectSandbox',
           position: 'right',
         },
       ],
