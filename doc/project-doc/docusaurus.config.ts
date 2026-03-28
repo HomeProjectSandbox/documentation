@@ -75,12 +75,6 @@ const config: Config = {
         src: 'img/homeproject_logo.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docusaurus setup',
-        },
         {to: '/docs/services_intro', label: 'Services', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/blog', label: 'Learning', position: 'left'},
