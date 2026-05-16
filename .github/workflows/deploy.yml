@@ -29,7 +29,8 @@ jobs:
         working-directory: doc/project-doc
         run: |
           rm -rf node_modules
-          yarn install
+          npm install
+        #  yarn install
 
       #- name: Install dependencies
       #  working-directory: doc/project-doc
@@ -37,7 +38,8 @@ jobs:
 
       - name: Build website
         working-directory: doc/project-doc
-        run: yarn build
+        run: npm run build
+      #  run: yarn build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
