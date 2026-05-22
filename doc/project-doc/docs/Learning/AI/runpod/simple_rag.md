@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+---
+
+
+
 # RAG
 
 Creating a simple rag application with langchain (LLM (embedding) running on runpod environment)
