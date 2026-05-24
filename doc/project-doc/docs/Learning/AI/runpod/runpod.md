@@ -51,6 +51,7 @@ apt-get install -y zstd
 curl -fsSL https://ollama.com/install.sh | sh
 
 export OLLAMA_HOST='0.0.0.0:11434'
+#OLLAMA_CONTEXT_LENGTH=64000 ollama serve
 ollama serve
 ```
 
