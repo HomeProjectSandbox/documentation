@@ -9,4 +9,4 @@ run:
 build_doc:
 	node -v
 	npm -v
-	cd /doc/project-doc && npm run build
+	cd doc/project-doc && npm run build

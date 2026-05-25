@@ -1,7 +1,7 @@
 # Image processing with llms
 
 Selected model for the testing: https://ollama.com/library/llava:7b
-`llama.context_length 32768`    -> 32768 token [https://ollama.com/library/llava:7b/blobs/170370233dd5](link)
+`llama.context_length 32768`    -> 32768 token [link](https://ollama.com/library/llava:7b/blobs/170370233dd5)
 
 LLM running on runpod instance and listening on the default ollama port `11434`
 
