@@ -23,7 +23,7 @@ You sign in to OpenCode Zen, add your billing details, and copy your API key.
 
 [opencode zen](https://opencode.ai/auth)
 
-With [go](https://opencode.ai/docs/go/) subsciption you can use popular opensource models with generous usage limits.
+With [go](https://opencode.ai/docs/go/) subscription you can use popular opensource models with generous usage limits.
 - GLM-5.1
 - Qwen3.5 Plus
 - Qwen3.6 Plus
